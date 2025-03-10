@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "PharmecyV2.Controllers.MedicineController",
+    "Method": "Add",
+    "RelativePath": "api/Medicine/ADD",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicine",
+        "Type": "Pharmecy.Application.Dtos.CreateMedicineDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

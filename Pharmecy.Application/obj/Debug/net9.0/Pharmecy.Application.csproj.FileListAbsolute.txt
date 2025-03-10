@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\obj\Debug\net9.0\Pharmecy.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\obj\Debug\net9.0\Pharmecy.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\obj\Debug\net9.0\Pharmecy.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\obj\Debug\net9.0\Pharmecy.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\bin\Debug\net9.0\Pharmecy.Application.deps.json
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\bin\Debug\net9.0\Pharmecy.Application.dll
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\bin\Debug\net9.0\Pharmecy.Application.pdb
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\obj\Debug\net9.0\Pharmecy.Application.dll
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\obj\Debug\net9.0\refint\Pharmecy.Application.dll
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\obj\Debug\net9.0\Pharmecy.Application.pdb
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\obj\Debug\net9.0\ref\Pharmecy.Application.dll
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\obj\Debug\net9.0\Pharmecy.Application.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\bin\Debug\net9.0\Pharmecy.Domain.dll
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\bin\Debug\net9.0\Pharmecy.Infrastructure.dll
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\bin\Debug\net9.0\Pharmecy.Infrastructure.pdb
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\bin\Debug\net9.0\Pharmecy.Domain.pdb
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Application\obj\Debug\net9.0\Pharmecy.49674736.Up2Date

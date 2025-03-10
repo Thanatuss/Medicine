@@ -1,0 +1,6 @@
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Domain\bin\Debug\Pharmecy.Domain.dll
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Domain\bin\Debug\Pharmecy.Domain.pdb
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Domain\obj\Debug\Pharmecy.Domain.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Domain\obj\Debug\Pharmecy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Domain\obj\Debug\Pharmecy.Domain.dll
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Domain\obj\Debug\Pharmecy.Domain.pdb
