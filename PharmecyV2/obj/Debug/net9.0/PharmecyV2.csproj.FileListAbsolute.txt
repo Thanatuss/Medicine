@@ -165,3 +165,5 @@ C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\MediatR.Contracts.dll
 C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\Pharmecy.Application.dll
 C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\Pharmecy.Application.pdb
+C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\obj\Debug\net9.0\PharmecyV2.sourcelink.json
+C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\AutoMapper.dll

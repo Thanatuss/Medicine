@@ -1,9 +1,9 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Components.Forms;
-using Microsoft.AspNetCore.Http;
+﻿using System.Net;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Pharmecy.Application.Commands;
 using Pharmecy.Application.Dtos;
+using Pharmecy.Application.Shared;
 
 namespace PharmecyV2.Controllers
 {
@@ -11,27 +11,35 @@ namespace PharmecyV2.Controllers
     [ApiController]
     public class MedicineController : ControllerBase
     {
-        public IMediator _mediator;
+        private readonly IMediator _mediator;
 
+        // Constructor Injection
         public MedicineController(IMediator mediator)
         {
             _mediator = mediator;
         }
+
         [HttpPost("ADD")]
-        public IActionResult Add(CreateMedicineDto medicine)
+        public async Task<IActionResult> Add([FromBody] CreateMedicineDto medicine)
         {
-            var command = new CreateMedicineCommand(new CreateMedicineDto()
+            if (medicine == null)
             {
-                Manufacturer = medicine.Manufacturer,
-                Price = medicine.Price,
-                Stock = medicine.Stock,
-                Description = medicine.Description,
-                Dosage = medicine.Dosage,
-                ExpiryDate = medicine.ExpiryDate,
-                Name = medicine.Name
-            });
-            var result = _mediator.Send(command);
-            return Ok(result.Result.Message);
+                return BadRequest("Invalid medicine data.");
+            }
+
+            // ایجاد دستور برای ایجاد دارو
+            var command = new CreateMedicineCommand(medicine);
+
+            // ارسال دستور به MediatR
+            var result = await _mediator.Send(command);
+
+            // بررسی نتیجه و ارسال پاسخ مناسب
+            if ((int) result.Status == (int)Status.Success)
+            {
+                return Ok(result.Message); // موفقیت‌آمیز
+            }
+            return BadRequest(result.Message); // شکست در ایجاد دارو
+            
         }
     }
 }

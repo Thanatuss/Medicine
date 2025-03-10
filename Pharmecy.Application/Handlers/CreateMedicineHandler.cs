@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Pharmacy.Domain.Entities;
@@ -18,10 +19,12 @@ namespace Pharmecy.Application.Handlers
     public class CreateMedicineHandler : IRequestHandler<CreateMedicineCommand, OperationResult>
     {
         private readonly ProgramDbContext _context;
+        private readonly IMapper _mapper;
 
-        public CreateMedicineHandler(ProgramDbContext context)
+        public CreateMedicineHandler(IMapper mapper , ProgramDbContext context)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         public async Task<OperationResult> Handle(CreateMedicineCommand request, CancellationToken cancellationToken)
@@ -38,16 +41,7 @@ namespace Pharmecy.Application.Handlers
             }
 
             // ایجاد داروی جدید
-            var medicine = new Medicine
-            {
-                Name = data.Name,
-                Description = data.Description,
-                Manufacturer = data.Manufacturer,
-                Dosage = data.Dosage,
-                Price = data.Price,
-                ExpiryDate = data.ExpiryDate,
-                Stock = data.Stock
-            };
+            var medicine = _mapper.Map<Medicine>(data);
 
             // افزودن دارو به کانتکست
             _context.Medicine.Add(medicine);
