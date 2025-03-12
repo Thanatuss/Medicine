@@ -8,7 +8,7 @@ using Pharmecy.Application.Dtos;
 
 namespace Pharmecy.Application.Commands
 {
-    public class CreateMedicineCommand : IRequest<OperationResult>
+    public class CreateMedicineCommand<T> : IRequest<T>
     {
         public CreateMedicineDto CreateMedicineDto { get; set; }
 

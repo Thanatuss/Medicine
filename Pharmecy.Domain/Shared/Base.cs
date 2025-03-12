@@ -11,6 +11,6 @@ namespace Pharmacy.Domain.Shared
     {
         public int Id { get; set; }
         public DateTime CreatedDate{ get; set; } = DateTime.Now;
-        public IsDeleteEnum Status { get; set; }
+        public IsDeleteEnum Status { get; set; } = IsDeleteEnum.Unknown; 
     }
 }

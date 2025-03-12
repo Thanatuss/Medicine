@@ -15,3 +15,4 @@ C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Infrastructure\obj\Debug\net9.0\refint\P
 C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Infrastructure\obj\Debug\net9.0\Pharmecy.Infrastructure.pdb
 C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Infrastructure\obj\Debug\net9.0\Pharmecy.Infrastructure.genruntimeconfig.cache
 C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Infrastructure\obj\Debug\net9.0\ref\Pharmecy.Infrastructure.dll
+C:\Users\HP\Desktop\PharmecyV2\Pharmecy.Infrastructure\obj\Debug\net9.0\Pharmecy.Infrastructure.sourcelink.json

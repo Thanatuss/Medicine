@@ -1,9 +1,13 @@
-using System.Reflection;
+﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Pharmecy.Infrastructure.Data.DbContext;
 using MediatR;
 using Pharmecy.Application.Handlers;
+using MongoDB.Driver;
+using Pharmecy.Domain.Interfaces;
+using Pharmecy.Infrastructure.Repository;
+using Pharmecy.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,8 +31,24 @@ builder.Services.AddDbContext<ProgramDbContext>(option =>
 {
     option.UseSqlServer("Server = . ; database = Medicen ; integrated security = true ; trustservercertificate = true");
 });
-var app = builder.Build();
+// ثبت mongoDB
+builder.Services.AddSingleton(serviceProvider =>
+{
+    var mongoClient = serviceProvider.GetRequiredService<IMongoClient>();
+    var database = mongoClient.GetDatabase("PharmacyDB"); // 👈 نام دیتابیس MongoDB
+    return database.GetCollection<Pharmecy.Domain.Entities.Log>("Logs"); // 👈 نام کالکشن
+});
 
+builder.Services.AddSingleton<IMongoClient>(new MongoClient("mongodb://localhost:27017"));
+builder.Services.AddScoped<ILogRepository, LogRepository>();
+builder.Services.AddScoped<LogService>();
+
+var app = builder.Build();
+app.MapGet("/", async (LogService logService) =>
+{
+    await logService.SaveLogAsync("Application Started", "Info");
+    return "Logging to MongoDB";
+});
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

@@ -16,18 +16,19 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Pharmecy.Application.Handlers
 {
-    public class CreateMedicineHandler : IRequestHandler<CreateMedicineCommand, OperationResult>
+    public class CreateMedicineHandler : IRequestHandler<CreateMedicineCommand<OperationResult>, OperationResult>
     {
         private readonly ProgramDbContext _context;
         private readonly IMapper _mapper;
 
-        public CreateMedicineHandler(IMapper mapper , ProgramDbContext context)
+        public CreateMedicineHandler(IMapper mapper, ProgramDbContext context)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        public async Task<OperationResult> Handle(CreateMedicineCommand request, CancellationToken cancellationToken)
+        public async Task<OperationResult> Handle(CreateMedicineCommand<OperationResult> request,
+            CancellationToken cancellationToken)
         {
             var data = request.CreateMedicineDto;
 
@@ -37,7 +38,7 @@ namespace Pharmecy.Application.Handlers
 
             if (existingMedicine != null)
             {
-                return OperationResult.Error("Medicine with the same name and manufacturer already exists.");
+                return OperationResult.Error($"{Messages.Error}");
             }
 
             // ایجاد داروی جدید
@@ -50,8 +51,8 @@ namespace Pharmecy.Application.Handlers
             await _context.SaveChangesAsync();
 
             // موفقیت‌آمیز بودن عملیات
-            return OperationResult.Success("Medicine created successfully.");
+            return OperationResult.Success($"{Messages.Success}");
         }
-
     }
 }
+

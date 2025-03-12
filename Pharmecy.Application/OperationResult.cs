@@ -12,19 +12,23 @@ namespace Pharmecy.Application
         public string Message { get; set; }
         public Status Status { get; set; }
 
-        public static OperationResult Success(string message)
+        private static string GetDefaultMessage(string? message)
         {
-            return new OperationResult { Status = Status.Success, Message = message };
+            return string.IsNullOrEmpty(message) ? "Message is empty!" : message;
+        }
+        public static OperationResult Success(string? message)
+        {
+            return new OperationResult { Status = Status.Success, Message = GetDefaultMessage(message) };
         }
 
         public static OperationResult Error(string message)
         {
-            return new OperationResult { Status = Status.Error, Message = message };
+            return new OperationResult { Status = Status.Error, Message = GetDefaultMessage(message) };
         }
 
         public static OperationResult NotFound(string message)
         {
-            return new OperationResult { Status = Status.NotFound, Message = message };
+            return new OperationResult { Status = Status.NotFound, Message = GetDefaultMessage(message) };
         }
     }
 }

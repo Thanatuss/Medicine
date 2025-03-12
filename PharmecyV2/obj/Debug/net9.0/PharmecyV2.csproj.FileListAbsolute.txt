@@ -167,3 +167,9 @@ C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\Pharmecy.Application.
 C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\Pharmecy.Application.pdb
 C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\obj\Debug\net9.0\PharmecyV2.sourcelink.json
 C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\DnsClient.dll
+C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\SharpCompress.dll
+C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\Snappier.dll
+C:\Users\HP\Desktop\PharmecyV2\PharmecyV2\bin\Debug\net9.0\ZstdSharp.dll

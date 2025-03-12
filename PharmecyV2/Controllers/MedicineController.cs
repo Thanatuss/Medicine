@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Pharmecy.Application;
 using Pharmecy.Application.Commands;
 using Pharmecy.Application.Dtos;
 using Pharmecy.Application.Shared;
@@ -28,7 +29,7 @@ namespace PharmecyV2.Controllers
             }
 
             // ایجاد دستور برای ایجاد دارو
-            var command = new CreateMedicineCommand(medicine);
+            var command = new CreateMedicineCommand<OperationResult>(medicine);
 
             // ارسال دستور به MediatR
             var result = await _mediator.Send(command);
