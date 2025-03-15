@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\PharmecyV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E31638FC-23FE-4F15-A999-8619CAEF9A5E}|PharmecyV2\\PharmecyV2.csproj|c:\\users\\hp\\desktop\\pharmecyv2\\pharmecyv2\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E31638FC-23FE-4F15-A999-8619CAEF9A5E}|PharmecyV2\\PharmecyV2.csproj|solutionrelative:pharmecyv2\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44592F2E-66D7-4BD1-A194-BD263A77673A}|Pharmecy.Infrastructure\\Pharmecy.Infrastructure.csproj|c:\\users\\hp\\desktop\\pharmecyv2\\pharmecy.infrastructure\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44592F2E-66D7-4BD1-A194-BD263A77673A}|Pharmecy.Infrastructure\\Pharmecy.Infrastructure.csproj|solutionrelative:pharmecy.infrastructure\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2579E798-B734-4E13-B323-0A348CB390CB}|Pharmecy.Domain\\Pharmecy.Domain.csproj|c:\\users\\hp\\desktop\\pharmecyv2\\pharmecy.domain\\interfaces\\ilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2579E798-B734-4E13-B323-0A348CB390CB}|Pharmecy.Domain\\Pharmecy.Domain.csproj|solutionrelative:pharmecy.domain\\interfaces\\ilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8613F148-861A-4A43-85E1-3AB17D518B0E}|Pharmecy.Application\\Pharmecy.Application.csproj|c:\\users\\hp\\desktop\\pharmecyv2\\pharmecy.application\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8613F148-861A-4A43-85E1-3AB17D518B0E}|Pharmecy.Application\\Pharmecy.Application.csproj|solutionrelative:pharmecy.application\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E31638FC-23FE-4F15-A999-8619CAEF9A5E}|PharmecyV2\\PharmecyV2.csproj|c:\\users\\hp\\desktop\\pharmecyv2\\pharmecyv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E31638FC-23FE-4F15-A999-8619CAEF9A5E}|PharmecyV2\\PharmecyV2.csproj|solutionrelative:pharmecyv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LogController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PharmecyV2\\PharmecyV2\\Controllers\\LogController.cs",
-              "RelativeDocumentMoniker": "PharmecyV2\\Controllers\\LogController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\PharmecyV2\\PharmecyV2\\Controllers\\LogController.cs",
-              "RelativeToolTip": "PharmecyV2\\Controllers\\LogController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PharmecyV2\\PharmecyV2\\Program.cs",
+              "RelativeDocumentMoniker": "PharmecyV2\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PharmecyV2\\PharmecyV2\\Program.cs",
+              "RelativeToolTip": "PharmecyV2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:41:22.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LogRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PharmecyV2\\Pharmecy.Infrastructure\\Repository\\LogRepository.cs",
-              "RelativeDocumentMoniker": "Pharmecy.Infrastructure\\Repository\\LogRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\PharmecyV2\\Pharmecy.Infrastructure\\Repository\\LogRepository.cs",
-              "RelativeToolTip": "Pharmecy.Infrastructure\\Repository\\LogRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:37:27.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LogService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PharmecyV2\\Pharmecy.Application\\Services\\LogService.cs",
-              "RelativeDocumentMoniker": "Pharmecy.Application\\Services\\LogService.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\PharmecyV2\\Pharmecy.Application\\Services\\LogService.cs",
-              "RelativeToolTip": "Pharmecy.Application\\Services\\LogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:37:16.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ILogRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PharmecyV2\\Pharmecy.Domain\\Interfaces\\ILogRepository.cs",
-              "RelativeDocumentMoniker": "Pharmecy.Domain\\Interfaces\\ILogRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\PharmecyV2\\Pharmecy.Domain\\Interfaces\\ILogRepository.cs",
-              "RelativeToolTip": "Pharmecy.Domain\\Interfaces\\ILogRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T11:37:03.535Z",
+              "WhenOpened": "2025-03-15T07:48:08.305Z",
               "EditorCaption": ""
             }
           ]
